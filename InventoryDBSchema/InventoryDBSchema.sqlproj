@@ -58,13 +58,17 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="table_inventory" />
+    <Folder Include="table_inventory\SP" />
+    <Folder Include="table_inventory\Types" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="table_inventory\stackable_item.sql" />
-    <Build Include="table_inventory\ManipulateItems.sql" />
     <Build Include="table_inventory\nonstackable_item.sql" />
-    <Build Include="table_inventory\TStackableItemManip.sql" />
-    <Build Include="table_inventory\TNonStackableItemMove.sql" />
-    <Build Include="table_inventory\TNonStackableItemCreate.sql" />
+    <Build Include="table_inventory\SP\ManipulateItems.sql" />
+    <Build Include="table_inventory\SP\_ManipulateStackableItems.sql" />
+    <Build Include="table_inventory\SP\_ManipulateNonStackableItems.sql" />
+    <Build Include="table_inventory\Types\TNonStackableItemCreate.sql" />
+    <Build Include="table_inventory\Types\TNonStackableItemMove.sql" />
+    <Build Include="table_inventory\Types\TStackableItemManip.sql" />
   </ItemGroup>
 </Project>
