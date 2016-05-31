@@ -60,6 +60,8 @@
     <Folder Include="inventory" />
     <Folder Include="inventory\SP" />
     <Folder Include="inventory\Types" />
+    <Folder Include="character" />
+    <Folder Include="account" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="inventory\stackable_item.sql" />
@@ -70,5 +72,9 @@
     <Build Include="inventory\Types\TNonStackableItemCreate.sql" />
     <Build Include="inventory\Types\TNonStackableItemMove.sql" />
     <Build Include="inventory\Types\TStackableItemManip.sql" />
+    <Build Include="character\character.sql" />
+    <Build Include="account\account.sql" />
+    <Build Include="account\TAccountName.sql" />
+    <Build Include="character\TCharName.sql" />
   </ItemGroup>
 </Project>
